@@ -1,0 +1,74 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header>h1 {
+    font-weight: 500;
+}
+
+header {
+    /* To put element's in one line we use */
+    display: flex;
+
+    /* To arrange element's in spacific manner */
+    justify-content: space-between;
+
+    margin: 0rem 3rem;
+    
+}
+
+li{
+    /* To remove bullet point of list */
+    list-style: none;
+
+    /* rem stand's for root em
+    1 rem = 16px */
+    font-size: 1.5rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    width: 22rem;
+    position: relative;
+    top: 1rem;
+}
+
+.showcase_img {
+    width: 95vw;
+    margin: 1rem;
+}
+
+article {
+    display: flex;
+    margin: 1.5rem;
+}
+
+.container {
+    /* align content's in the center horizontally */
+    text-align: center;
+    margin-right: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    font-size: 1.5rem;
+     /* align content's in the center vertically */
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
